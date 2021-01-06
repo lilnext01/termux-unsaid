@@ -1,10 +1,10 @@
 const help = (prefix) => {
 	return `
-❉──────────❉
+  ❉──────────❉
 
-⚡ OI! EU SOU O *UNSAID* ⚡
+ OI! EU SOU O *UNSAID!*
 
-❉──────────❉
+  ❉──────────❉
 
 📍LILNEXT-𝖤𝖷𝖤 𝖣𝖮𝖬𝖨𝖭𝖠𝖭𝖣𝖮, 𝖮𝖫𝖧𝖤 𝖮𝖲 𝖢𝖮𝖬𝖠𝖭𝖣𝖮𝖲 𝖠𝖡𝖠𝖨𝖷𝖮🤙
 
