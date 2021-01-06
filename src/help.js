@@ -1,83 +1,86 @@
 const help = (prefix) => {
-	return `> *Sticker Commands* <
-command : *${prefix}sticker* or *${prefix}stiker*
-desc : convert image/gif/video to sticker
-usage : reply image/gif/video, or send image/gif/video with caption\n
-command : *${prefix}sticker nobg* or *${prefix}stiker nobg*
-desc : convert image to sticker while removing the background
-usage : reply image, or send image with caption\n
-command : *${prefix}toimg*
-desc : convert sticker to image
-usage : reply sticker\n
-command : *${prefix}tsticker* or *${prefix}tstiker*
-desc : convert text to sticker
-usage : *${prefix}tsticker text in here*\n
-> *Meme Commands* <
-command : *${prefix}meme*
-desc : random meme images [english]
-usage : just send the command\n
-command : *${prefix}memeindo*
-desc : random meme images [indo]
-usage : just send the command\n
-> *Others Commands* <
-command : *${prefix}gtts*
-desc : convert text to speech/audio
-usage : *${prefix}gtts [cc] [text]*\nexample : *${prefix}gtts ja On2-chan*\n
-command : *${prefix}loli*
-desc : random loli images
-usage : just send the command\n
-command : *${prefix}nsfwloli*
-desc : random nsfw loli images
-usage : just send the command\n
-command : *${prefix}url2img*
-desc : take web screenshots
-usage : *${prefix}url2img [tipe] [url]*\n
-command : *${prefix}simi*
-desc : your message will be replied to by simi
-usage : *${prefix}simi yourmessage*\n
-command : *${prefix}ocr*
-desc : take the text in the picture
-usage : reply image, or send image with caption\n
-command : *${prefix}wait*
-desc : search anime with image [ What Anime Is This/That ]
-usage : reply image, or send image with caption\n
-command : *${prefix}setprefix*
-desc : replace prefix
-usage : *${prefix}setprefix [text|optional]*\nexample : *${prefix}setprefix ?*
-note : This command can only be used by the bot owner\n
-> *Group Comands* <
-command : *${prefix}add*
-desc : add member into group
-usage : *${prefix}add 62813xxxxx*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
-command : *${prefix}kick*
-desc : kick members from group
-usage : *${prefix}kick @tagmember*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
-command : *${prefix}promote*
-desc : make the group member as group admin
-usage : *${prefix}promote @tagmember*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
-command : *${prefix}demote*
-desc : make the group admin as group member
-usage : *${prefix}demote @tagmember*\n
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
-command : *${prefix}linkgroup*
-desc : take the group link
-usage : just send the command
-note : can only be used when the bot becomes admin, and the one who sends the command is admin!\n
-command : *${prefix}leave*
-desc : Make bot leave the group
-usage : just send the command
-note : Can only be used by Group admins and Bot owner\n
-command : *${prefix}tagall*
-desc : tags all group members including admins too
-usage : just send the command
-note : This command can be used if you are a group admin\n
-command : *${prefix}simih*
-desc : activate simi mode in the group
-usage : *${prefix}simih 1* to activate simi mode and *${prefix}simih 0* to deactivate simi mode
-note : This command can be used if you are a group admin\n`
+	return `
+❉──────────❉
+
+⚡ OI! EU SOU O *UNSAID* ⚡
+
+❉──────────❉
+
+📍LILNEXT-𝖤𝖷𝖤 𝖣𝖮𝖬𝖨𝖭𝖠𝖭𝖣𝖮, 𝖮𝖫𝖧𝖤 𝖮𝖲 𝖢𝖮𝖬𝖠𝖭𝖣𝖮𝖲 𝖠𝖡𝖠𝖨𝖷𝖮🤙
+
+╔════════════════════
+║ 
+╠════════════════════
+║╭──❉ *Comandos para figurinhas* ❉──
+║│➸ Comando : *${prefix}sticker* ou *${prefix}stiker*
+║│➸ útil em : converter imagem/gif/vídeo em adesivo
+║│➸ uso : responder imagem/gif/video ou enviar imagem/gif/video com legenda\n
+║│➸ Comando : *${prefix}sticker nobg* ou *${prefix}stiker nobg*
+║│➸ útil em : converter imagem em adesivo removendo o fundo
+║│➸ uso : responder imagem ou enviar imagem com legenda/n
+║│➸ Comando : *${prefix}toimg*
+║│➸ útil em : converter adesivo em imagem
+║│➸ uso : adesivo de resposta\n
+║│➸ Comando : *${prefix}tsticker* ou *${prefix}tstiker*
+║│➸ útil em : converter texto em adesivo
+║│➸ uso : *${prefix}tsticker seu texto aqui*\n
+║╰───────────
+╠════════════════════
+║╭──❉ *Comandos memes* ❉──
+║│➸ Comando : *${prefix}meme*
+║│➸ útil em : mandar imagens aleatórias de meme [inglês]
+║│➸ uso : basta emviar o comando\n
+║│➸ Comando : *${prefix}memeindo*
+║│➸ útil em : mandar imagens aleatórias de meme [indo]
+║│➸ uso : basta enviar o comando\n
+
+║╰───────────
+╠════════════════════
+║╭──❉ *Outros comandos* ❉──
+║│➸ Comando : *${prefix}gtts*
+║│➸ útil em : converter texto em fala/áudio
+║│➸ uso : *${prefix}gtts [cc] [text]*\nexemplo : *${prefix}gtts ja On2-chan*\n
+║│➸ Comando : *${prefix}loli*
+║│➸ útil em : mandar imagens aleatórias de loli
+║│➸ uso : basta enviar o comando\n
+║│➸ Comando : *${prefix}nsfwloli*
+║│➸ útil em : mandar imagens aleatórias de nsfw loli
+║│➸ uso : basta enviar o comando\n
+║│➸ Comando : *${prefix}url2img*
+║│➸ útil em : tirar screenshots da web
+║│➸ uso : *${prefix}url2img [tipe] [url]*\n
+║│➸ Comando : *${prefix}simi*
+║│➸ útil em : responder sua mensagem por simi
+║│➸ uso : *${prefix}simi sua mensagem*\n
+║│➸ Comando : *${prefix}ocr*
+║│➸ útil em : pegar o texto da foto e lhe enviar
+║│➸ uso : responder imagem ou enviar mensagem com legenda\n
+║│➸ Comando : *${prefix}wait*
+║│➸ útil em : pesquisar sobre o anime por imagem [ Que anime é este/que ]
+║│➸ uso : responder imagem ou enviar imagem com legenda\n
+║│➸ Comando : *${prefix}setprefix*
+║│➸ útil em : alterar o prefixo do bot
+║│➸ uso : *${prefix}setprefix [texto|opcional]*\nexemplo : *${prefix}setprefix ?*
+║│➸ Nota : Este comando só pode ser usado pelo proprietário do bot\n
+║╰───────────
+╠════════════════════
+║╭──❉ *Comandos de grupo* ❉──
+║│➸ Comando : *${prefix}linkgroup*
+║│➸ útil em : enviar o link do grupo
+║│➸ uso : basta enviar o comando\n
+║│➸ Comando : *${prefix}tagall*
+║│➸ útil em : marcar todos os membros do grupo, incluindo administradores
+║│➸ uso : basta enviar o comando\n
+║│➸ Nota : Este comando só pode ser usado se você for um administrador do grupo\n
+║│➸ Comando : *${prefix}simih*
+║│➸ útil em : ativar o modo simi no grupo
+║│➸ uso : *${prefix}simih 1* para ativar o modo simi e *${prefix}simih 0* para desativar o modo simi
+║│➸ Nota : Este comando só pode ser usado se você for um administrador do grupo\n
+║╰───────────
+╠════════════════════
+║ 📍 LILNEXT-𝖤𝖷𝖤 𝖣𝖮𝖬𝖨𝖭𝖠𝖭𝖣𝖮 📍
+╚════════════════════`
 }
 
 exports.help = help
+
