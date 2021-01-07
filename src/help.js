@@ -27,7 +27,7 @@ const help = (prefix) => {
 ║╰───────────
 ╠════════════════════
 ║╭──❉ *Comandos memes* ❉──
-║│➸ Comando : *${prefix}meme*
+║│➸ Comando : *${prefix}meme* <english>
 ║│➸ útil em : mandar imagens aleatórias de meme [inglês]
 ║│➸ uso : basta emviar o comando\n
 ║│➸ Comando : *${prefix}memeindo*
@@ -68,7 +68,7 @@ const help = (prefix) => {
 ║│➸ Comando : *${prefix}linkgroup*
 ║│➸ útil em : enviar o link do grupo
 ║│➸ uso : basta enviar o comando\n
-║│➸ Comando : *${prefix}tagall*
+║│➸ Comando : *${prefix}tagall* 
 ║│➸ útil em : marcar todos os membros do grupo, incluindo administradores
 ║│➸ uso : basta enviar o comando\n
 ║│➸ Nota : Este comando só pode ser usado se você for um administrador do grupo\n
